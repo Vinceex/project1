@@ -4,18 +4,18 @@
         <title></title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="quick.css" rel="stylesheet">
+        <link href="index.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     </head>
-    <body>
-        <section>
+    <body >
+        <section id="body">
             <div class="navbox">
                 <div class="logo">
-                    <a  class="fa-regular fa-flag"></a>
+                    <a class="fa-regular fa-flag"></a>
                 </div>
                 <div class="navs">
                     <a href="">Start</a>
-                    <a href="" id="search" class="fa-solid fa-magnifying-glass"></a>
+                    <i id="search" class="fa-solid fa-magnifying-glass"></i>
                     <a href="">Icons</a>
                     <a href="">Docs</a>
                     <a href="">Plans</a>
@@ -26,19 +26,18 @@
                     <a href=""  class="fa-solid fa-right-to-bracket"></a>
                 </div>
             </div>
-            <div class="modalbox">
-                <div id="mymodal" class="searchbox">
-                    <input type="search" placeholder="Search 19,403 icons....">
-    
-                </div>
+           <div class="modal">
+            <div id="modalbox">
+                <input type="search" class="searchbox" placeholder="Search 19,403 icons....">
             </div>
             <div id="head" class="heading">
                 <h1>Take the hassle out of icons in your <span>website.</span></h1>
                 <p><span>Font Awesome</span> is the Internet's icon library and toolkit, used by millions of designers, developers, and content creators.</p>
+                <button id="mybtn">Search here</button>
             </div>
-            <button id="mybtn">Search here</button>
+           </div>
         
         </section>
-    <script src="/quick.js"></script>
+    <script src="/index.js"></script>
     </body>
 </html>
